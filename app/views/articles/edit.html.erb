@@ -1,6 +1,6 @@
 <%= form_for @article do |f|  do %>
-  <label>Article title:</label><br>
-  <%= text_field_tag :title %><br>
+  <%= f.label 'Article Title' %><br>
+  <%= f.text_field :title %><br>
  
   <label>Article Description</label><br>
   <%= text_area_tag :description %><br>
